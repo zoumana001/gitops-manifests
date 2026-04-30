@@ -36,7 +36,7 @@ spec:
       containers:
         - name: frontend
           # ↓ CI pipeline updates this line automatically via sed
-          image: ghcr.io/zoumana001/boutique-frontend:main-d3fa858
+          image: ghcr.io/zoumana001/boutique-frontend:latest
 
           ports:
             - name: http
